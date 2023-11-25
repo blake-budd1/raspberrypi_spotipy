@@ -14,8 +14,8 @@ import re
 MJ_URL = "http://the-modern-jukebox-react-app.vercel.app/api/messages"
 
 DEVICE_ID="raspberryPi"
-CLIENT_ID="5cb64b1dbd2f4306af892c8c367b4764"
-CLIENT_SECRET="f074ffd4fb584cccb686e0aea131228f"
+CLIENT_ID="62d7db029474470d9910002d8e2c71fa"
+CLIENT_SECRET="62d6fbba1a794b55a5be7e83216ddc5f"
 
 while True:
     try:
