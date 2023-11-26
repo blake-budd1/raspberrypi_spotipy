@@ -20,13 +20,7 @@ CLIENT_ID="62d7db029474470d9910002d8e2c71fa"
 CLIENT_SECRET="62d6fbba1a794b55a5be7e83216ddc5f"
 
 # using to check if the data has anything in it once we did the get
-while True:
-    user_input = input("Enter 1 to quit, 0 to contiue\n")
-    if user_input == "1":
-        print("Ending Program\n")
-        sys.exit()
-    else:
-        print("Continuing program\n")
+while True:s
     try:
         get_list = requests.get(MJ_URL) # perform the get on the website above
         response = requests.delete(MJ_URL)
